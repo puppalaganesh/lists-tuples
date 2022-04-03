@@ -1,0 +1,10 @@
+def right(N,A,D):
+    i=0
+    while i<N:
+        print(A[(i-D)%N],end=" ")
+        i+=1
+    return i
+N=int(input())
+A=input().split()
+D=int(input())
+right(N,A,D)
