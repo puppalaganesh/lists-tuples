@@ -1,0 +1,9 @@
+n=int(input())
+l=list(map(int,input().split()))
+a=set(l)
+b=list(a)
+b.sort()
+if(len(b)<3):
+    print(max(b))
+else:
+    print(b[-3])
