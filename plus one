@@ -1,0 +1,8 @@
+a=int(input())
+l=[]
+b=list(map(int,input().split()))
+s = [str(i) for i in b]
+result = str("".join(s))
+c=int(result)+1
+x = [int(i) for i in str(c)]
+print(*x,sep=" ") 
