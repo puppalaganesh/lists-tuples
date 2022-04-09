@@ -1,0 +1,10 @@
+n=int(input())
+l=[]
+l1=list(map(int,input().split()))
+l2=list(map(int,input().split()))
+l3=0
+for i in range(n):
+   l3=l1[i]+l2[i] 
+   l.append(l3)
+for i in l:
+    print(i,end=" ")
