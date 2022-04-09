@@ -1,0 +1,10 @@
+n=int(input())
+l=list(map(int,input().split()))
+l1=[]
+c=0
+for i in l:
+    l1.append(str(i))
+for j in l1:
+    if((len(j))%2==0):
+       c+=1 
+print(c)
